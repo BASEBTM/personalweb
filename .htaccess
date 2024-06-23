@@ -1,0 +1,6 @@
+
+# This Directive will make Apache look first# for “is_aktif.html” before looking for “index.html”
+DirectoryIndex index.html
+ErrorDocument 404 /404.html
+ErrorDocument 403 /403.html
+Options -Indexes
